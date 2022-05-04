@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewrap</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="css/codewrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<a class="github-label" href="https://github.com/jay0324/codewrap" target="_blank">GitHub</a>
+
+    <div class="wrapper">
+        <h1>< Codewrap /></h1>
+        <h2> Demo</h2>
+<textarea class="codewrap" cols="30" rows="10">
+<div id="test">
+    <span>
+        test content
+    </span>
+</div></textarea>
+<br><br>
+        <h2>How to Use</h2>
+        <p>just copy files from dist folder, and put in your project</p>
+        <textarea class="codewrap" cols="30" rows="10">
+- dist/codewrap.min.css
+- dist/codewrap.min.js</textarea>
+
+        <p>In the head</p>
+<textarea class="codewrap" cols="30" rows="10">
+<link rel="stylesheet" href="Your_local_Path/codewrap.min.css"></textarea>
+
+        <p>In the body</p>
+<textarea class="codewrap" cols="30" rows="10">
+<script src="jquery_adapter"></script>
+<script src="Your_local_Path/codewrap.min.js"></script></textarea>
+
+    <p>Apply on your textarea</p>
+    <textarea class="codewrap" cols="30" rows="10">
+<textarea class="codewrap_class">
+...
+Your Code ...
+...
+</ textarea></textarea> &
+
+<p>initialize plugin in your script</p>
+    <textarea class="codewrap" cols="30" rows="10">
+$(function(){
+    $(".codewrap_class").codewrap();
+});</textarea>
+    
+        </div>
+
+        <footer>
+            <a href="https://blog.digishot.name" target="_blank">Blog.Digishot.name</a> | Jay Hsu
+        </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/codewrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+a {
+  color: #7e8ba6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #3e63b4;
+  text-decoration: underline;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+h2 {
+  color: #2f2f2f;
+}
+
+footer {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  color: #8a8a8a;
+  padding: 2%;
+  background-color: #eaeaea;
+  -webkit-box-shadow: 0 0 20px rgba(97, 97, 97, 0.632);
+          box-shadow: 0 0 20px rgba(97, 97, 97, 0.632);
+}
+
+.github-label {
+  display: block;
+  text-decoration: none;
+  padding: 10px 100px;
+  color: #a4a4a4;
+  background-color: #333;
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(45deg) translate(70px, -50px);
+          transform: rotate(45deg) translate(70px, -50px);
+  -webkit-box-shadow: 0 0 5px rgba(53, 53, 53, 0.79), inset 0 0 20px rgba(0, 0, 0, 0.63);
+          box-shadow: 0 0 5px rgba(53, 53, 53, 0.79), inset 0 0 20px rgba(0, 0, 0, 0.63);
+  text-shadow: 1px 1px 1px rgba(3, 3, 3, 0.755);
+  z-index: 999;
+}
+
+.github-label:hover {
+  color: #fff;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 15px rgba(24, 24, 24, 0.887), inset 0 0 20px rgba(0, 0, 0, 0.63);
+          box-shadow: 0 0 15px rgba(24, 24, 24, 0.887), inset 0 0 20px rgba(0, 0, 0, 0.63);
+}
+/*# sourceMappingURL=style.css.map */
