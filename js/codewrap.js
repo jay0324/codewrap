@@ -15,6 +15,7 @@
          //your code here
 
         const main_wraper = $(this);
+        let temp_id_checker = [];
 
         $(this).each(function(){
             const sub_wrapper = $(this);
@@ -58,7 +59,10 @@
         }
 
         function getID(){
-            return Date.now()+Math.floor(Math.random()*100);
+            const create_id = Date.now()+Math.floor(Math.random()*1000);
+            if (temp_id_checker.find(element => element == create_id) != undefined) return getID();
+            temp_id_checker.push(create_id);
+            return create_id;
         }
 
     }
