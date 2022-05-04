@@ -3,6 +3,7 @@ wrap your code and show in the page easier
 
 # example
 [Codepen example](https://codepen.io/jayh0324/pen/qBxdbeg)
+[Demo example](https://jay0324.github.io/codewrap/)
 
 # how to use
 Just use files in dist folder as below:
